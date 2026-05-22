@@ -168,8 +168,8 @@ def home():
             HTML,
             ons=round(ons, 2),
             usdtry=round(usdtry, 4),
-            gram=round(gram, 0),
-            ceyrek=round(ceyrek, 0),
+            gram=int(gram),
+            ceyrek=int(ceyrek),
             time=datetime.now().strftime("%d.%m.%Y %H:%M:%S")
         )
 
