@@ -128,8 +128,8 @@ HTML = """
         Gram = Ons × USDTRY / 31.1035
         <br>
         Çeyrek = Gram × 1.608
-
-        Federal Kuyumculuk® All Rights Reserved. 2026
+        <br><br><br>
+        Federal Kuyumculuk® All Rights Reserved.        2026
     </div>
 
 
