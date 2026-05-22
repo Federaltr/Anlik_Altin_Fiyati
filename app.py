@@ -90,7 +90,17 @@ HTML = """
 
 <div class="container">
 
-    <h1>Federal Kuyumculuk Altın Fiyatları</h1>
+     <h1>Federal Kuyumculuk Altın Fiyatları</h1>
+
+    <div class="box">
+        <div class="title">Gram Altın</div>
+        <div class="value gold">{{ gram }} TL</div>
+    </div>
+
+    <div class="box">
+        <div class="title">Çeyrek Altın</div>
+        <div class="value gold">{{ ceyrek }} TL</div>
+    </div>
 
     <div class="box">
         <div class="title">Ons Altın</div>
@@ -102,15 +112,7 @@ HTML = """
         <div class="value">{{ usdtry }}</div>
     </div>
 
-    <div class="box">
-        <div class="title">Gram Altın</div>
-        <div class="value gold">{{ gram }} TL</div>
-    </div>
-
-    <div class="box">
-        <div class="title">Çeyrek Altın</div>
-        <div class="value gold">{{ ceyrek }} TL</div>
-    </div>
+ 
 
     <div class="refresh">
         <button onclick="window.location.reload();">
@@ -126,7 +128,10 @@ HTML = """
         Gram = Ons × USDTRY / 31.1035
         <br>
         Çeyrek = Gram × 1.608
+
+        Federal Kuyumculuk® All Rights Reserved. 2026
     </div>
+
 
 </div>
 
